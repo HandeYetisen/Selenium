@@ -1,10 +1,3 @@
-# Yeni testlerimiz için bu linki kullanacağız https://www.saucedemo.com/ 
-
-# Bu site özel olarak selenium test için üretilmiş. Ödevlerimizi bu sitenin tüm testlerini yapacak şekilde şekillendireceğiz
-
-# Her bir ister bir pytest fonksiyonu olacak şekilde yazılmalıdır.
-# Bu ödev için isterler:
-
 # -Doğru bilgilerden standard_user kullanıcı adıyla giriş yapılmanın doğru olup olmadığı kontrol edilmelidir.
 # -Yanlış bilgiler girildiğinde uyarı çıkıp çıkmadığı test edilmelidir.
 # -Yanlış bilgiler girildiğinde çıkan uyarı mesajının doğruluğu kontrol edilmelidir Epic sadface: Username and password do not match any user in this service
@@ -143,7 +136,7 @@ class Test_Saucedemo:
         assert len(productCount)== 6
         
 
-#ClassName = inventory_item_description
+
 #ister5-Sepete Ekle butonuna tıklandığında butonun texti REMOVE olmalıdır.
 
     def test_basket_remove(self):
